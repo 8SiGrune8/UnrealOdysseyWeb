@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Кэш и IDE
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Не включать личные ключи и пароли
+.env
