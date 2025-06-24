@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unreal Odyssey — Интерактивное путешествие</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unreal Odyssey — Энциклопедия Легенд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #3b82f6, #06b6d4);
+      color: white;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      padding: 2rem;
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .chapter-card {
+      background: #1f1f1f;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+      transition: transform 0.2s;
+    }
+    .chapter-card:hover {
+      transform: translateY(-5px);
+    }
+    .chapter-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #3b82f6;
+    }
+    .chapter-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #06b6d4;
+      text-decoration: none;
+    }
+    .chapter-link:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Unreal Odyssey</h1>
-    <p>Путешествие сквозь легенды, архитектуру и цифровое искусство</p>
+    <h1>Unreal Odyssey — Энциклопедия Легенд</h1>
+    <p>Погружающий тур по мифам, времени и архитектуре</p>
   </header>
+  <main>
+    <div class="chapter-card">
+      <div class="chapter-title">Глава I: Бухта Мандраки (Родос)</div>
+      <p>На обломках Колосса — ожившая история античного мира.</p>
+      <a class="chapter-link" href="https://yourpixelstreaminglink.com/mandraki" target="_blank">Открыть сцену</a>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-title">Глава II: Ронда (Андалусия)</div>
+      <p>Город над бездной — архитектура и страсть Испании.</p>
+      <a class="chapter-link" href="https://yourpixelstreaminglink.com/ronda" target="_blank">Открыть сцену</a>
+    </div>
+
+    <div class="chapter-card">
+      <div class="chapter-title">Глава III: Маяк на мысе Рока</div>
+      <p>Край света — место, где мифы встречают Атлантику.</p>
+      <a class="chapter-link" href="https://yourpixelstreaminglink.com/roca" target="_blank">Открыть сцену</a>
+    </div>
+  </main>
+  <footer>
+    Unreal Odyssey &copy; 2025. Powered by Pixel Streaming.
+  </footer>
 </body>
 </html>
